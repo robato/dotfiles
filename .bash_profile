@@ -10,3 +10,6 @@ PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 # Common junk
 [[ -s "$HOME/.commonrc" ]] && source "$HOME/.commonrc"
 
+export PS1='\h:[\w] $' # change user Prompt
+alias ls="ls -F --color=auto" # make color directory listings teh default
+alias lsl="ls -lF" # verbose
